@@ -6,6 +6,8 @@
 
 译者：[飞龙](https://github.com/)
 
+版本：0.5.0
+
 + [在线阅读](https://www.gitbook.com/book/wizardforcel/think-os/details)
 + [PDF格式](https://www.gitbook.com/download/pdf/book/wizardforcel/think-os)
 + [EPUB格式](https://www.gitbook.com/download/epub/book/wizardforcel/think-os)
