@@ -62,7 +62,7 @@ fclose(fp);
 
 ## 4.1 磁盘性能
 
-我之前提到过，磁盘驱动器非常慢。在当前的HDD上，从磁盘读取一个块到内存的时间为2~6毫秒。SSD要快一些，读取4KiB的块需要25毫秒，写入需要250毫秒（请见[http://en.wikipedia.org/wiki/Ssd#Controller](http://en.wikipedia.org/wiki/Ssd#Controller)）。
+我之前提到过，磁盘驱动器非常慢。在当前的HDD上，从磁盘读取一个块到内存的时间为2~6毫秒。SSD要快一些，读取4KiB的块需要25微秒，写入需要250微秒（请见[http://en.wikipedia.org/wiki/Ssd#Controller](http://en.wikipedia.org/wiki/Ssd#Controller)）。
 
 为了正确看待这些数据，让我们将其与CPU的时钟周期进行比较。一个拥有2GHZ时钟频率的处理器，每0.5纳秒就会完成一个时钟周期。从内存获取一个字节到CPU的时间通常为100纳秒。如果处理器每个时钟周期完成一条指令，在等待来自内存的一个字节时，它可以完成200条指令。
 
